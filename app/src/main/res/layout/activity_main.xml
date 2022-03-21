@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="255dp"
+        android:layout_height="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:text="Number between 1000 and 9999" />
+
+        <EditText
+            android:id="@+id/numberInput"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Input number"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/guess1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Nothing" />
+
+        <TextView
+            android:id="@+id/guess2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Nothing" />
+
+        <TextView
+            android:id="@+id/guess3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Nothing" />
+
+        <TextView
+            android:id="@+id/guess4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Nothing" />
+    </LinearLayout>
+
+</RelativeLayout>
